@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <hr>
+        <div class="image">
+            <img src="OIP1.jpg" alt="fond d'écran de la série big bang theory">
+        </div>
+            <h1 class="quicksand"> Une petite partie?</h1> 
+            <p class="quicksand"> Voici les règles de pierre feuille ciseaux adaptés par le Docteur Sheldon Cooper, et toutes les combinaisons permettant de remporter (ou perdre) la partie : <br>
+                Les ciseaux coupent le papier, <br>
+                Le papier bat la pierre,<br>
+                La pierre écrase le lézard,<br>
+                Le lézard empoisonne Spock.<br>
+                Spock écrabouille les ciseaux,<br>
+                Les ciseaux décapitent le lézard,<br>
+                Le lézard mange le papier,<br>
+                Le papier repousse Spock,<br>
+                Spock détruit la pierre.<br>
+                La pierre bat les ciseaux
+            </p><br>
+            <div class="boutton">
+                <button class="quicksand" onclick="jouer('Pierre')"> Pierre </button>
+                <button class="quicksand" onclick ="jouer('Papier')"> Papier </button>
+                <button class="quicksand" onclick ="jouer('Ciseau')"> Ciseau </button>
+                <button class="quicksand" onclick="jouer('Lezard')"> Lezard</button>
+                <button class="quicksand" onclick="jouer('Spock')"> Spock </button>
+            </div>
+            <br>
+            <div id="result" 
+                class="result">
+            </div>
+            <div class="espace"></div>
+            <hr>
+            
+            
+
+
+    <script src="script.js"></script>
+</body>
+</html>
